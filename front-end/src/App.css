@@ -1,0 +1,138 @@
+body {
+  height: 100vh;
+}
+#root {
+  height: 100%;
+  width: 100%;
+}
+@media screen and (max-width: 890px) {
+  .start-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box {
+    display: block;
+    position: relative;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: darkslategrey;
+  }
+  .board {
+    margin-left: 5%;
+  }
+  .controls {
+    margin-left: 35%;
+    display: block;
+    width: 50%;
+  }
+  .sidebox {
+    display: flex;
+    height: 30%;
+    width: 95%;
+    margin-left: 3%;
+  }
+  .user-video {
+    border: 1px solid black;
+    height: 100%;
+    width: 49%;
+    background-color: black;
+    border-radius: 5%;
+  }
+  .remote-video {
+    border: 1px solid black;
+    height: 100%;
+    width: 49%;
+    background-color: black;
+    border-radius: 5%;
+  }
+  .board {
+    width: 100vw;
+  }
+  .gameover {
+    position: absolute;
+    background-color: cornflowerblue;
+    width: 50%;
+    height: 30%;
+    margin-top: 70%;
+    margin-left: 21%;
+    z-index: 10;
+    border-radius: 5%;
+  }
+  .popup {
+    margin-left: 33%;
+    margin-top: 50%;
+  }
+  .exitbt {
+    margin-top: 0px;
+  }
+}
+@media screen and (min-width: 891px) {
+  .box {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    background-color: darkslategrey;
+  }
+  .sidebox {
+    width: 30%;
+    height: 98%;
+    border-color: black;
+    justify-content: space-evenly;
+    padding-left: 3%;
+  }
+  .board {
+    margin-left: 9%;
+    width: 60%;
+    height: 100%;
+  }
+  .user-video {
+    border: 1px solid black;
+    height: 50%;
+    width: 100%;
+    background-color: black;
+    border-radius: 5%;
+  }
+  .remote-video {
+    border: 1px solid black;
+    height: 50%;
+    width: 100%;
+    background-color: black;
+    border-radius: 5%;
+  }
+  .start-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .gameover {
+    position: absolute;
+    background-color: cornflowerblue;
+    width: 300px;
+    height: 300px;
+    margin-top: 5%;
+    margin-left: 45%;
+    z-index: 10;
+    border-radius: 5%;
+  }
+  .popup {
+    margin-left: 44%;
+    margin-top: 50%;
+  }
+  #root {
+    height: 100%;
+    width: 100%;
+  }
+  .controls {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    padding-top: 1%;
+  }
+}
